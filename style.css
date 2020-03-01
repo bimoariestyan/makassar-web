@@ -1,0 +1,197 @@
+html {
+    font-size: 25px;
+}
+
+body {
+    background-image: url(img/papyrus.png);
+    text-align: center;
+}
+
+p {
+    font-size: 0.65rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.3rem;
+}
+
+.header {
+    font-family: 'Lora',
+        sans-serif;
+    background-color: black;
+    height: 15%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    color: white;
+    font-size: 15px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.jumbotron {
+    width: 100%;
+    padding: 150px 40px;
+    box-sizing: border-box;
+    background-color: #aaa;
+    background-image: url(img/code.jpg);
+    background-size: cover;
+    background-position: right;
+    border-top: 3px solid lightskyblue;
+    border-bottom: 3px solid lightskyblue;
+}
+
+.jumbotron img {
+    float: left;
+    margin: 70px 10px 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+    position: relative;
+}
+
+.profil {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.profil h2,
+.profil p {
+    font-family: 'Raleway',
+        sans-serif;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    margin: 7px;
+    margin-top: 0;
+}
+
+.about {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.about .p1 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    margin: 7px;
+    margin-top: 0;
+    
+}
+
+.about .p2 {
+    font-family: 'Raleway',
+        sans-serif;
+    text-align: justify;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 7px;
+    margin-top: 0;
+}
+
+.p3 {
+    font-family: 'Raleway',
+        sans-serif;
+    text-align: justify;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 7px;
+    margin-top: 0;
+}
+
+.medsos {
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 0;
+    border-top: 2px solid lightskyblue;
+    border-bottom: 2px solid orangered;
+}
+
+.keren {
+    background-color: white;
+    border: 5px solid white;
+    overflow: auto;
+}
+
+.keren p {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    margin-top: 0;
+}
+
+.jumbo {
+    width: 100%;
+    height: 400px;
+}
+
+.thumb {
+    width: 200px;
+    height: 100px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.thumb:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.active {
+    opacity: 0.5;
+}
+
+.medsos img {
+    width: 1em;
+}
+
+.footer {
+    background-color: #333;
+    padding: 1px;
+}
+
+.footer p {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
